@@ -19,11 +19,7 @@ def update_status
          {name: "Nurse", age: "44", attitude: "worried"}
          ]
       },
-      :additional_characters => [{
-        :name=> " Prince Escalus"}
-        
-        ]
-      }
+      
    }
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
@@ -58,6 +54,9 @@ def add_characters
          ]
       }
    }
+   epic_tragedy[:additional_characters] = [
+  { name: "Prince Escalus" },
+  { name: "Apothecary" }
 
    # Write code below that does the following programmatically:
    #
